@@ -1,0 +1,78 @@
+body{
+  background-color: aquamarine;
+}
+.grid ,.boxOfAll {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+.box {
+  font-family: cursive;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px -1px #000000a1;
+}
+.title {
+  font-size: 4em;
+  color: #696978;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+.inputBox {
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+}
+.container input:first-child {
+  font-size: 30px;
+  color: #838686;
+  padding: 10px;
+  border: 0;
+  box-shadow: 0px 0px 4px -1px #000000a1;
+}
+.btn {
+  font-size: 30px;
+  color: #838686;
+  margin: 0 -5px;
+  padding: 10px 15px;
+  background-color: white;
+  border: 0;
+  box-shadow: 0px 0px 4px -1px #000000a1;
+}
+.todoText {
+  width: 87%;
+  float: left;
+  margin: 0;
+  padding: 16px 8px;
+  cursor: pointer;
+  background-color: white;
+  color: #696978;
+}
+.todoTextDone {
+  width: 87%;
+  float: left;
+  margin: 0;
+  padding: 16px 8px;
+  text-decoration: line-through;
+  background-color: #69697824;
+  color: #696978;
+}
+.todoText:hover ,.btn:hover ,.xIcon:hover {
+  background-color: #22e5a3;
+  color: #ffffff;
+}
+.xIcon {
+  width: 8%;
+  height: 100%;
+  float: right;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  padding: 16px 4px;
+  color: #696978;
+  cursor: pointer;
+}
